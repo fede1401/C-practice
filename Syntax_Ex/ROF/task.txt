@@ -1,0 +1,9 @@
+Rule of Five & RAII
+
+Obiettivo: capire copia, move, distruzione, e Resource Acquisition Is Initialization.
+
+    Implementa una classe Buffer che alloca dinamicamente un array di char di lunghezza variabile.
+
+    Fornisci: costruttore, distruttore, copy-ctor, copy-assign, move-ctor, move-assign.
+
+    Verifica che non ci siano double-free né leak, scrivendo semplici test nel main.
